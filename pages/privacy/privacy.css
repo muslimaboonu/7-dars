@@ -1,1 +1,58 @@
 @import url("../../css/global.css");
+.privacy-header {
+  background-image: url("../../images/shape-pink-kvadrat.svg"),
+    url("../../images/header-shape-right.svg");
+  background-position: top left, top right;
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  text-align: left;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.privacy-header-main {
+  font-family: "Poppins";
+  line-height: 58px;
+  width: 1277px;
+  margin-left: auto;
+}
+
+.privacy-policy {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 96px;
+}
+.privacy-left h2 {
+  font-size: 48px;
+  font-weight: 600;
+  padding: 20px 0 8px;
+}
+.privacy-left p {
+  font-size: 16px;
+  color: rgb(35, 37, 54, 0.6);
+  font-weight: 400;
+}
+.privacy-policy-text {
+  margin-top: 72px;
+  padding: 96px 220px;
+  background-color: #ecf8f9;
+}
+.privacy-policy-text h2 {
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 600;
+}
+.privacy-policy-text p {
+  padding-top: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: inherit;
+}
+.privacy-policy-text h4 {
+  padding-top: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}

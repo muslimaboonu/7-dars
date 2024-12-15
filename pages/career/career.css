@@ -1,1 +1,153 @@
 @import url("../../css/global.css");
+/*HERO START*/ /*HERO END*/
+.hero {
+  border-color: #ffffff;
+}
+
+.small-subtitle {
+  text-align: center;
+  margin-top: 96px;
+  margin-bottom: 24px;
+  opacity: 87%;
+}
+.hero-title {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 64px;
+  max-width: 624px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #232536;
+  line-height: 58px;
+}
+.hero-description {
+  text-align: center;
+  margin-top: 24px;
+  max-width: 624px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #232536;
+  margin-bottom: 64px;
+  opacity: 87%;
+}
+
+.hero-item {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 96px;
+}
+
+/*HERO END*/
+/*FAATERES START*/
+.features {
+  align-items: start;
+  justify-items: start;
+  text-align: start;
+}
+.features-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ecf8f9;
+  text-align: start;
+}
+
+.features-list {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  text-align: start;
+}
+.features-item {
+  width: 354px;
+  height: 243px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-items: center;
+  text-align: start;
+}
+.features-item-title {
+  margin-top: 48px;
+  text-align: start;
+}
+
+.features-link {
+  margin-bottom: 30px;
+  color: #5d5fef;
+}
+.features-description {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/*FEATURES START*/
+/*CAREER STERT*/
+.career {
+  background-color: #fafafc;
+}
+.career-container {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.career-small-suptitle {
+  color: #000000;
+  opacity: 87%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+.career-title {
+  width: 100%;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 64px;
+  margin-bottom: 24px;
+  max-width: 624px;
+  color: #232536;
+}
+.career-description {
+  max-width: 622px;
+  color: #232536;
+  opacity: 60%;
+  margin-bottom: 64px;
+  width: 100%;
+}
+.career-list {
+  display: flex;
+  margin-top: 32px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.career-item {
+  width: 418px;
+  height: 188px;
+  background-color: #ffffff;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+.career-img {
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.career-item-title {
+  color: #232536;
+  margin-bottom: 8px;
+  line-height: 28px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.career-item-description {
+  margin-bottom: 32px;
+  line-height: 20px;
+  color: #232536;
+  width: 100%;
+  max-width: 355px;
+}
+/* CAREER END */
